@@ -1,14 +1,29 @@
 <html>
 
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
 <body>
-    <a href="aboutus.html">to us</a> 
-    <h1 style="color:slateblue">
+    <a class="nav" href="aboutus.html">to us</a>
+    <h1 class="title">
         Save the beeees
     </h1>
-    <p>save here</p>
+    <p class="description">save here</p>
+    <ul class="list">
+        <li class="point">
+            we need more flowers
+        </li>
+        <li class="point">
+            we need to stap using pestisides
+        </li>
+        <li class="point">
+            sponsor a beehive in your community
+        </li>
+    </ul>
     <div id="saveit">
         <input placeholder="good cause" id="savewhat" type="text">
-        <button onclick="document.getElementById('saveit').innerText = 'we must save nicolas and ' + document.getElementById('savewhat').value">hit me</button>
+        <button class="button" onclick="document.getElementById('saveit').innerText = 'we must save nicolas and ' + document.getElementById('savewhat').value">hit me</button>
     </div>
 </body>
 
